@@ -1,18 +1,4 @@
 @charset "utf-8";
-@import url('layout.css?ver=21012103');
-@import url('team-logo.css?ver=21012103');
-@import url('team-uniform.css?ver=21012103');
-@import url('formation.css?ver=21012103');
-/*
-@import url('swiper.css?ver=21012103');
-*/
-@import url('acticle.css?ver=21012103');
-
-/*@import url('mobiscroll.css?ver=21012103');*/
-
-/*
-@import url('billboard.css?ver=21011901');
-*/
 
 /** Montserrat Light **/
 @font-face {
