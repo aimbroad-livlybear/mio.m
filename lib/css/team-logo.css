@@ -1,0 +1,35 @@
+@charset "utf-8";
+/**
+ * Unit...
+ */
+.badge-club {
+    width: 30px;height: 30px;overflow:hidden;background-size:cover !important;
+}
+
+.badge-club.BOU { background:url(/img/team-logo/team-logo-list01.png) no-repeat center center;}
+.badge-club.ARS { background:url(/img/team-logo/team-logo-list02.png) no-repeat center center;}
+.badge-club.AVL { background:url(/img/team-logo/team-logo-list03.png) no-repeat center center;}
+.badge-club.BHA { background:url(/img/team-logo/team-logo-list04.png) no-repeat center center;}
+.badge-club.BUR { background:url(/img/team-logo/team-logo-list05.png) no-repeat center center;}
+.badge-club.CHE { background:url(/img/team-logo/team-logo-list06.png) no-repeat center center;}
+.badge-club.CRY { background:url(/img/team-logo/team-logo-list07.png) no-repeat center center;}
+.badge-club.EVE { background:url(/img/team-logo/team-logo-list08.png) no-repeat center center;}
+.badge-club.LEI { background:url(/img/team-logo/team-logo-list09.png) no-repeat center center;}
+.badge-club.LIV { background:url(/img/team-logo/team-logo-list10.png) no-repeat center center;}
+.badge-club.MCI { background:url(/img/team-logo/team-logo-list11.png) no-repeat center center;}
+.badge-club.MUN { background:url(/img/team-logo/team-logo-list12.png) no-repeat center center;}
+.badge-club.NEW { background:url(/img/team-logo/team-logo-list13.png) no-repeat center center;}
+.badge-club.NOR { background:url(/img/team-logo/team-logo-list14.png) no-repeat center center;}
+.badge-club.SHU { background:url(/img/team-logo/team-logo-list15.png) no-repeat center center;}
+.badge-club.SOU { background:url(/img/team-logo/team-logo-list16.png) no-repeat center center;}
+.badge-club.TOT { background:url(/img/team-logo/team-logo-list17.png) no-repeat center center;}
+.badge-club.WAT { background:url(/img/team-logo/team-logo-list18.png) no-repeat center center;}
+.badge-club.WHU { background:url(/img/team-logo/team-logo-list19.png) no-repeat center center;}
+.badge-club.WOL { background:url(/img/team-logo/team-logo-list20.png) no-repeat center center;}
+
+.badge-club.FUL { background:url(/img/team-logo/team-logo-list21.png) no-repeat center center;}
+.badge-club.CAR { background:url(/img/team-logo/team-logo-list22.png) no-repeat center center;}
+.badge-club.HUD { background:url(/img/team-logo/team-logo-list23.png) no-repeat center center;}
+
+.badge-club.LEE { background:url(/img/team-logo/team-logo-LEE.png) no-repeat center center;}
+.badge-club.WBA { background:url(/img/team-logo/team-logo-WBA.png) no-repeat center center;}

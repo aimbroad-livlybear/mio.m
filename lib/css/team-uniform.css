@@ -1,0 +1,621 @@
+@charset "utf-8";
+/**
+ * Uniform mark
+ */
+.uniform-box {
+    min-width: 120px;
+    min-height: 90px;
+    box-sizing: border-box;
+    background-image: url("../img/team-uniform/no-uniform.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+    position: relative;
+}
+
+.uniform-box .uniform-text {
+    position: absolute;
+    width: 100%;    
+    /* bottom: 10px; */
+    top: 50%;
+    transform: translateY(-35%);
+    text-align: center;
+    color: #fff;
+}
+
+.uniform-box .uniform-text span {
+    display: block;
+}
+
+.uniform-box .uniform-text span.club .club-wrap {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 1px 5px;
+    font-size: 11px;
+}
+
+.uniform-box .uniform-text span.name {
+    font-size: 12px;
+    padding: 0;
+}
+
+.uniform-box .uniform-text span.no {
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.uniform-box.ARS {
+    background-image: url("../img/team-uniform/ARS-home.png");
+}
+
+.uniform-box.ARS .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.ARS .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #97374E;
+    background: #ffffff;
+}
+
+.uniform-box.ARS.away {
+    background-image: url("../img/team-uniform/ARS-away.png");
+}
+
+.uniform-box.ARS.away .uniform-text {
+    color: #113166;
+}
+
+.uniform-box.ARS.away .uniform-text .club-wrap {
+    color: #F0E525;
+    background: #113166;
+}
+
+.uniform-box.AVL {
+    background-image: url("../img/team-uniform/AVL-home.png");
+}
+
+.uniform-box.AVL .uniform-text {
+    color: #B3DDFE;
+}
+
+.uniform-box.AVL .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #95102E;
+    background: #B3DDFE;
+}
+
+.uniform-box.AVL.away {
+    background-image: url("../img/team-uniform/AVL-away.png");
+}
+
+.uniform-box.AVL.away .uniform-text {
+    color: #95102E;
+}
+
+.uniform-box.AVL.away .uniform-text .club-wrap {
+    color: #B3DDFE;
+    background: #95102E;
+}
+
+.uniform-box.BHA {
+    background-image: url("../img/team-uniform/BHA-home.png");
+    text-shadow: -1px -1px 0 #DFE0DF, 1px -1px 0 #DFE0DF, -1px 1px 0 #DFE0DF, 1px 1px 0 #DFE0DF;
+}
+
+.uniform-box.BHA .uniform-text {
+    color: #15255B;
+}
+
+.uniform-box.BHA .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #ffffff;
+    background: #15255B;
+}
+
+.uniform-box.BHA.away {
+    background-image: url("../img/team-uniform/BHA-away.png");
+    text-shadow: -1px -1px 0 #1C1B1C, 1px -1px 0 #1C1B1C, -1px 1px 0 #1C1B1C, 1px 1px 0 #1C1B1C;
+}
+
+.uniform-box.BHA.away .uniform-text {
+    color: #fff;
+}
+
+.uniform-box.BHA.away .uniform-text .club-wrap {
+    color: #000;
+    background: #fff;
+}
+
+.uniform-box.BOU {
+    background-image: url("../img/team-uniform/BOU-home.png");
+}
+
+.uniform-box.BOU .uniform-text {
+    color: #fff;
+}
+
+.uniform-box.BOU .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #BA4545;
+    background: #fff;
+}
+
+.uniform-box.BOU.away {
+    background-image: url("../img/team-uniform/BOU-away.png");
+}
+
+.uniform-box.BOU.away .uniform-text {
+    color: #E966EA;
+}
+
+.uniform-box.BOU.away .uniform-text .club-wrap {
+    color: #051A37;
+    background: #E966EA;
+}
+
+.uniform-box.BUR {
+    background-image: url("../img/team-uniform/BUR-home.png");
+}
+
+.uniform-box.BUR .uniform-text {
+    color: #A0CBFE;
+}
+
+.uniform-box.BUR .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #950D2D;
+    background: #A0CBFE;
+}
+
+.uniform-box.BUR.away {
+    background-image: url("../img/team-uniform/BUR-away.png");
+}
+
+.uniform-box.BUR.away .uniform-text {
+    color: #950D2D;
+}
+
+.uniform-box.BUR.away .uniform-text .club-wrap {
+    color: #A0CBFE;
+    background: #950D2D;
+}
+
+.uniform-box.CHE {
+    background-image: url("../img/team-uniform/CHE-home.png");
+}
+
+.uniform-box.CHE .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.CHE .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #16173B;
+    background: #ffffff;
+}
+
+.uniform-box.CHE.away {
+    background-image: url("../img/team-uniform/CHE-away.png");
+}
+
+.uniform-box.CHE.away .uniform-text {
+    color: #050567;
+}
+
+.uniform-box.CHE.away .uniform-text .club-wrap {
+    color: #ffffff;
+    background: #050567;
+}
+
+.uniform-box.CRY {
+    background-image: url("../img/team-uniform/CRY-home.png");
+    text-shadow: -1px -1px 0 #DB2929, 1px -1px 0 #DB2929, -1px 1px 0 #DB2929, 1px 1px 0 #DB2929;
+}
+
+.uniform-box.CRY .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.CRY .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #2D22DB;
+    background: #ffffff;
+}
+
+.uniform-box.CRY.away {
+    background-image: url("../img/team-uniform/CRY-away.png");
+    text-shadow: -1px -1px 0 #1C1C1C, 1px -1px 0 #1C1C1C, -1px 1px 0 #1C1C1C, 1px 1px 0 #1C1C1C;
+}
+
+.uniform-box.CRY.away .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.CRY.away .uniform-text .club-wrap {
+    color: #000000;
+    background: #ffffff;
+}
+
+.uniform-box.EVE {
+    background-image: url("../img/team-uniform/EVE-home.png");
+}
+
+.uniform-box.EVE .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.EVE .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #2800CB;
+    background: #ffffff;
+}
+
+.uniform-box.EVE.away {
+    background-image: url("../img/team-uniform/EVE-away.png");
+}
+
+.uniform-box.EVE.away .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.EVE.away .uniform-text .club-wrap {
+    color: #F77D73;
+    background: #000000;
+}
+
+.uniform-box.LEI {
+    background-image: url("../img/team-uniform/LEI-home.png");
+}
+
+.uniform-box.LEI .uniform-text {
+    color: #DEC07F;
+}
+
+.uniform-box.LEI .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #302CB0;
+    background: #DEC07F;
+}
+
+.uniform-box.LEI.away {
+    background-image: url("../img/team-uniform/LEI-away.png");
+}
+
+.uniform-box.LEI.away .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.LEI.away .uniform-text .club-wrap {
+    color: #F17CC1;
+    background: #000000;
+}
+
+.uniform-box.LIV {
+    background-image: url("../img/team-uniform/LIV-home.png");
+}
+
+.uniform-box.LIV .uniform-text {
+    color: #FAE020;
+}
+
+.uniform-box.LIV .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #BA3535;
+    background: #FAE020;
+}
+
+.uniform-box.LIV.away {
+    background-image: url("../img/team-uniform/LIV-away.png");
+}
+
+.uniform-box.LIV.away .uniform-text {
+    color: #113166;
+}
+
+.uniform-box.LIV.away .uniform-text .club-wrap {
+    color: #ffffff;
+    background: #113166;
+}
+
+.uniform-box.MCI {
+    background-image: url("../img/team-uniform/MCI-home.png");
+}
+
+.uniform-box.MCI .uniform-text {
+    color: #6F27BF;
+}
+
+.uniform-box.MCI .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #97BCE8;
+    background: #6F27BF;
+}
+
+.uniform-box.MCI.away {
+    background-image: url("../img/team-uniform/MCI-away.png");
+}
+
+.uniform-box.MCI.away .uniform-text {
+    color: #F6EE63;
+}
+
+.uniform-box.MCI.away .uniform-text .club-wrap {
+    color: #0B0B0B;
+    background: #F6EE63;
+}
+
+.uniform-box.MUN {
+    background-image: url("../img/team-uniform/MUN-home.png");
+}
+
+.uniform-box.MUN .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.MUN .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #ffffff;
+    background: #000000;
+}
+
+.uniform-box.MUN.away {
+    background-image: url("../img/team-uniform/MUN-away.png");
+}
+
+.uniform-box.MUN.away .uniform-text {
+    color: #191A1B;
+}
+
+.uniform-box.MUN.away .uniform-text .club-wrap {
+    color: #E7E0D2;
+    background: #191A1B;
+}
+
+.uniform-box.NEW {
+    background-image: url("../img/team-uniform/NEW-home.png");
+    text-shadow: -1px -1px 0 #323232, 1px -1px 0 #323232, -1px 1px 0 #323232, 1px 1px 0 #323232;
+}
+
+.uniform-box.NEW .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.NEW .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #000000;
+    background: #ffffff;
+}
+
+.uniform-box.NEW.away {
+    background-image: url("../img/team-uniform/NEW-away.png");
+    text-shadow: -1px -1px 0 #262725, 1px -1px 0 #262725, -1px 1px 0 #262725, 1px 1px 0 #262725;
+}
+
+.uniform-box.NEW.away .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.NEW.away .uniform-text .club-wrap {
+    color: #3A4C25;
+    background: #ffffff;
+}
+
+.uniform-box.NOR {
+    background-image: url("../img/team-uniform/NOR-home.png");
+}
+
+.uniform-box.NOR .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.NOR .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #E2D525;
+    background: #000000;
+}
+
+.uniform-box.NOR.away {
+    background-image: url("../img/team-uniform/NOR-away.png");
+}
+
+.uniform-box.NOR.away .uniform-text {
+    color: #CEBD3D;
+}
+
+.uniform-box.NOR.away .uniform-text .club-wrap {
+    color: #E01F20;
+    background: #CEBD3D;
+}
+
+.uniform-box.SHU {
+    background-image: url("../img/team-uniform/SHU-home.png");
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.uniform-box.SHU .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.SHU .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #D82727;
+    background: #000000;
+}
+
+.uniform-box.SHU.away {
+    background-image: url("../img/team-uniform/SHU-away.png");
+    text-shadow: -1px -1px 0 #DCDDDC, 1px -1px 0 #DCDDDC, -1px 1px 0 #DCDDDC, 1px 1px 0 #DCDDDC;
+}
+
+.uniform-box.SHU.away .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.SHU.away .uniform-text .club-wrap {
+    color: #E6E6E6;
+    background: #000000;
+}
+
+.uniform-box.SOU {
+    background-image: url("../img/team-uniform/SOU-home.png");
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.uniform-box.SOU .uniform-text {
+    color: #191919;
+}
+
+.uniform-box.SOU .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #ffffff;
+    background: #191919;
+}
+
+.uniform-box.SOU.away {
+    background-image: url("../img/team-uniform/SOU-away.png");
+    text-shadow: -1px -1px 0 #646564, 1px -1px 0 #646564, -1px 1px 0 #646564, 1px 1px 0 #646564;
+}
+
+.uniform-box.SOU.away .uniform-text {
+    color: #DBDE26;
+}
+
+.uniform-box.SOU.away .uniform-text .club-wrap {
+    color: #646564;
+    background: #DBDE26;
+}
+
+.uniform-box.TOT {
+    background-image: url("../img/team-uniform/TOT-home.png");
+}
+
+.uniform-box.TOT .uniform-text {
+    color: #113166;
+}
+
+.uniform-box.TOT .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #ffffff;
+    background: #113166;
+}
+
+.uniform-box.TOT.away {
+    background-image: url("../img/team-uniform/TOT-away.png");
+}
+
+.uniform-box.TOT.away .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.TOT.away .uniform-text .club-wrap {
+    color: #112962;
+    background: #ffffff;
+}
+
+.uniform-box.WAT {
+    background-image: url("../img/team-uniform/WAT-home.png");
+    text-shadow: -1px -1px 0 #E7E150, 1px -1px 0 #E7E150, -1px 1px 0 #E7E150, 1px 1px 0 #E7E150;
+}
+
+.uniform-box.WAT .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.WAT .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #E7E150;
+    background: #000000;
+}
+
+.uniform-box.WAT.away {
+    background-image: url("../img/team-uniform/WAT-away.png");
+    text-shadow: -1px -1px 0 #566497, 1px -1px 0 #566497, -1px 1px 0 #566497, 1px 1px 0 #566497;
+}
+
+.uniform-box.WAT.away .uniform-text {
+    color: #ffffff;
+}
+
+.uniform-box.WAT.away .uniform-text .club-wrap {
+    color: #334382;
+    background: #ffffff;
+}
+
+.uniform-box.WHU {
+    background-image: url("../img/team-uniform/WHU-home.png");
+}
+
+.uniform-box.WHU .uniform-text {
+    color: #A0CBFE;
+}
+
+.uniform-box.WHU .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #95102E;
+    background: #A0CBFE;
+}
+
+.uniform-box.WHU.away {
+    background-image: url("../img/team-uniform/WHU-away.png");
+}
+
+.uniform-box.WHU.away .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.WHU.away .uniform-text .club-wrap {
+    color: #89B3E5;
+    background: #000000;
+}
+
+.uniform-box.WOL {
+    background-image: url("../img/team-uniform/WOL-home.png");
+}
+
+.uniform-box.WOL .uniform-text {
+    color: #000000;
+}
+
+.uniform-box.WOL .uniform-text .club-wrap {
+    text-shadow: none !important;
+    color: #D0AE36;
+    background: #000000;
+}
+
+.uniform-box.WOL.away {
+    background-image: url("../img/team-uniform/WOL-away.png");
+}
+
+.uniform-box.WOL.away .uniform-text {
+    color: #C5A023;
+}
+
+.uniform-box.WOL.away .uniform-text .club-wrap {
+    color: #1A1819;
+    background: #C5A023;
+}
+
+/* 유니폼 정보 추가 */
+.uniform-box.LEE { background-image: url("../img/team-uniform/LEE-home.png"); }
+.uniform-box.LEE .uniform-text { color: #191A1B; }
+.uniform-box.LEE .uniform-text .club-wrap { color: #E7E0D2; background: #191A1B; }
+.uniform-box.LEE.away { background-image: url("../img/team-uniform/LEE-away.png"); /* text-shadow: -1px -1px 0 #566497, 1px -1px 0 #566497, -1px 1px 0 #566497, 1px 1px 0 #566497; */}
+.uniform-box.LEE.away .uniform-text { color: #ffffff; }
+.uniform-box.LEE.away .uniform-text .club-wrap { color: #334382; background: #ffffff; }
+
+.uniform-box.WBA { background-image: url("../img/team-uniform/WBA-home.png"); /* text-shadow: -1px -1px 0 #DFE0DF, 1px -1px 0 #DFE0DF, -1px 1px 0 #DFE0DF, 1px 1px 0 #DFE0DF; */}
+.uniform-box.WBA .uniform-text { color: #15255B; }
+.uniform-box.WBA .uniform-text .club-wrap { text-shadow: none !important; color: #ffffff; background: #15255B; }
+.uniform-box.WBA.away { background-image: url("../img/team-uniform/WBA-away.png"); }
+.uniform-box.WBA.away .uniform-text { color: #000000; }
+.uniform-box.WBA.away .uniform-text .club-wrap { text-shadow: none !important; color: #E2D525; background: #000000; }
+
+.uniform-box.FUL { background-image: url("../img/team-uniform/FUL-home.png"); }
+.uniform-box.FUL .uniform-text { color: #113166; }
+.uniform-box.FUL .uniform-text .club-wrap { text-shadow: none !important;color: #ffffff;background: #113166; }
+.uniform-box.FUL.away { background-image: url("../img/team-uniform/FUL-away.png"); }
+.uniform-box.FUL.away .uniform-text { color: #113166; }
+.uniform-box.FUL.away .uniform-text .club-wrap { color: #F0E525; background: #113166; }
+
